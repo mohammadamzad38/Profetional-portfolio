@@ -8,13 +8,13 @@ const ThreeBackground = () => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
-      window.innerWidth / Window.innerHeight,
+      window.innerWidth / window.innerHeight,
       0.1,
       1000
     );
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    mountRef.current.appenChild(renderer.domElement);
+    mountRef.current.appendChild(renderer.domElement);
     camera.position.z = 5;
 
     // Create dense whitw stats for background
@@ -41,8 +41,8 @@ const ThreeBackground = () => {
     // Make stars move or intersct with the mouse (parallax effect)
 
     const handleMouseMove = (event) => {
-      const mouseX = (event.clintX / window.innerWidth) * 2 - 1;
-      const mouseY = (event.clintY / window.innerHeight) * 2 - 1;
+      const mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+      const mouseY = (event.clientY / window.innerHeight) * 2 - 1;
       starField.rotation.x += mouseY * 0.01;
       starField.rotation.y += mouseX * 0.01;
     };
@@ -72,7 +72,12 @@ const ThreeBackground = () => {
     animate();
   }, []);
 
-  return <div></div>;
+  return <div 
+  ref={mountRef}
+  className="fixed inset-0 z-0 w-full h-full"
+  />
+
+  
 };
 
 export default ThreeBackground;
