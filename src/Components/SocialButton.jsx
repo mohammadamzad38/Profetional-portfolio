@@ -1,5 +1,5 @@
 import React from "react";
-import { hover, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { socialIcon } from "./config";
 
 const SocialButton = () => {
@@ -27,7 +27,22 @@ const SocialButton = () => {
     },
   };
   return <div className="md:flex flex-col items-center justify-center border border-[#FFC107] bg-[#ffffff29] rounded-3xl space-y-11 p-3 max-h-[506px] md:max-h-[386px] hidden">{socialIcon.map((icon) => (
-    <button key={icon.id}></button>
+    <button key={icon.id}>
+        <svg viewBox={icon.viewBox} width={40} height={40} className="flex items-center justify-center">
+            <motion.path
+            d={icon.path}
+            fill="#FFC107"
+            stroke="#FFC107"
+            strokeWidth={2}
+            variants={variants}
+            initial="initial"
+            animate="animate"
+            whileHover="hover"
+            >
+
+            </motion.path>
+        </svg>
+    </button>
   ))}</div>;
 };
 
