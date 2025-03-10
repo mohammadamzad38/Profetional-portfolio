@@ -26,13 +26,13 @@ const HeroSection = () => {
               quas omnis excepturi, natus ex veritatis inventore officia
               assumenda quo ipsam.
             </p>
-            <section className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
+            <section className="flex items-center gap-5 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
               <figure className="w-56">
-                <InteractiveButton text="Hire me"/>
+                <InteractiveButton text="Hire Me"/>
               </figure>
               <motion.button
                 whileHover={{ scale: 1.1 }}
-                className="flex items-center px-4 py-2 bg-transparent text-[#FFC107] border border-[#FFC107] rounded-3xl"
+                className="flex items-center font px-4 py-2 bg-transparent text-[#FFC107] border border-[#FFC107] rounded-3xl"
               >
                 <svg viewBox="0 0 24 24" width={40} height={40}>
                   <motion.path
