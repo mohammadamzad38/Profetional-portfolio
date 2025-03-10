@@ -6,9 +6,10 @@ import {
 } from "framer-motion";
 
 
-const Path  = (props) => {
-  <Path fill="transparent" stroke="white" strokeLinecap="round" {...props} />;
-};
+const Path = (props) => (
+  <path fill="transparent" stroke="white" strokeLinecap="round" {...props} />
+);
+
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,20 +80,18 @@ const NavBar = () => {
           className="absolute top-4 z-40 left-4 w-12 h-12 rounded-full bg-gradient-to-br from-[#FFC107] to-[#ff18b8] flex items-center justify-center"
         >
           <svg width={23} height={18} viewBox="0 0 23 18">
-            <Path d="M 2 2.5 L 20 2.5" className="top-0" />
+            <Path d="M 2 2.5 L 20 2.5" className="top" />
             <Path
               d="M 2 9.423 L 20 9.423"
               opacity="1"
-              className="align-middle"
+              className="middle"
             />
             <Path d="M 2 16.346 L 20 16.346" className="bottom" />
           </svg>
         </button>
 
         <nav
-          className={`fixed top-0 left-0 h-full w-72 z-30 items-center bg-gradient-to-br from-[#FFC107] to-[#ff18b8] transform ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform duration-300 `}
+          className="fixed top-0 left-0 h-full w-72 z-30 items-center bg-gradient-to-br from-[#FFC107] to-[#ff18b8]"
         >
           <ul className="flex flex-col mt-15 p-6">
             {NavItems.map((item) => (
