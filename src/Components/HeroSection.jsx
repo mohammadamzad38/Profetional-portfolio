@@ -43,7 +43,7 @@ const HeroSection = () => {
                       d="M12 15.586l4.95-4.95-1.414-1.414L13 12.172V4h-2v8.172L8.464 9.636 7.05 11.05 12 15.586zM5 18h14v2H5v-2z"
                       fill="#FFC107"
                       stroke="#FFC107"
-                      strokeWidth={0.5}
+                      strokeWidth={1}
                       variants={variants}
                       initial="initial"
                       animate="animate"
@@ -54,6 +54,22 @@ const HeroSection = () => {
               </section>
             </section>
           </section>
+          <figure className="lg:h-full md:flex md:justify-end mt-20 md:mt-0">
+            <motion.div className="w-[300px] h-[300px] md:w-[300px] flex justify-center items-center p-3 rounded-full overflow-hidden relative"
+            animate={{backgroundColor:["#FFC107", "#FF7556", "#FF6667"], scale:[1, 1, 1, 1], rotate:[1, 5, 5, 1]}}
+            transition={{
+              duration:2,
+              ease:"easeInOut",
+              repeat:Infinity,
+              repeatType:"reverse"
+            }}
+            >
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#ffc107] blur-3xl opacity-60 h-full w-full" />
+
+              <img src="mypicture.jpg" alt="profile picture" className="relative z-10 rounded-full max-h-full shadow-2xl transform transition-transform duration-500 hover:scale-110"/>
+
+            </motion.div>
+          </figure>
         </article>
       </section>
     </section>
