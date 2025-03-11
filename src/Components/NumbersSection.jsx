@@ -1,5 +1,5 @@
 import CountUp from "react-countup";
-import { easeOut, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import { Numbers } from "./config";
 import { useEffect, useRef, useState } from "react";
 
@@ -39,7 +39,7 @@ export default function NumbersSection() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
-        className="relative z-1 mx-auto w-11/12 lg:mx-0 p-5 sm:p-6 py-6 sm:py-8 rounded-3xl border-[#FFC107] bg-[#ffffff29] shadow-lg md:divide-x divide-[#FFC107] grid grid-cols-4 gap-4 dm:gap-8 md:gap-6 lg:gap-12 "
+        className="relative z-1 mx-auto w-11/12 lg:mx-0 p-5 sm:p-6 py-6 sm:py-8 rounded-3xl border border-[#FFC107] bg-[#ffffff29] shadow-lg md:divide-x divide-[#FFC107] grid grid-cols-4 gap-4 dm:gap-8 md:gap-6 lg:gap-12 "
       >
         {Numbers.map((item) => (
           <article key={item.id} className="text-center">

@@ -44,8 +44,29 @@ export const socialIcon = [
 // Numbers Section
 
 export const Numbers =[
-    {id:1, number:15, title: "Created projects"},
-    {id:2, number:100, title: "Projects"},
-    {id:3, number:12, title: "Happy Clints"},
-    {id:4, number:12, title: "Years"},
+    {id:1, number:30, title: "Created projects"},
+    {id:2, number:20, title: "Projects"},
+    {id:3, number:3, title: "Happy Clints"},
+    {id:4, number:6, title: "Month"},
+]
+
+
+// Services section
+
+export const Services = [
+  {
+    id:1,
+    title: "Web Development",
+    description: "Complete Step-by-Step Guide to Building a Stunning Personal Portfolio Website with React, Vite, Tailwind CSS ,framer motion and three js "
+  },
+  {
+    id:1,
+    title: "Web Development",
+    description: "Complete Step-by-Step Guide to Building a Stunning Personal Portfolio Website with React, Vite, Tailwind CSS ,framer motion and three js "
+  },
+  {
+    id:1,
+    title: "Web Development",
+    description: "Complete Step-by-Step Guide to Building a Stunning Personal Portfolio Website with React, Vite, Tailwind CSS ,framer motion and three js "
+  }
 ]
