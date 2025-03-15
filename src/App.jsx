@@ -4,6 +4,7 @@ import HeroSection from "./Components/HeroSection";
 import NumbersSection from "./Components/NumbersSection";
 import ServiceSection from "./Components/ServiceSection";
 import SkillsSection from "./Components/SkillsSection";
+import EduAndExp from "./Components/eduAndExp";
 
 
 
@@ -16,6 +17,7 @@ function App() {
      <NumbersSection />
      <ServiceSection />
      <SkillsSection />
+     <EduAndExp />
     </>
   );
 }
