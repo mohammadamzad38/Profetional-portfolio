@@ -70,3 +70,50 @@ export const Services = [
     description: "Complete Step-by-Step Guide to Building a Stunning Personal Portfolio Website with React, Vite, Tailwind CSS ,framer motion and three js "
   }
 ]
+
+
+// Skills Sections
+
+export const skills = [
+  {
+    skill: "HTML",
+    percentage: 100,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlxUBrZ1Ml63XHO-KR2WenziEgQoOQH1-CW-i5ZLom3RG_tBgBt3aeorAC6CjgQrdSY7U&usqp=CAU"
+  },
+  {
+    skill: "CSS",
+    percentage: 60,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulnz6YBuAJR2Mhu23faS3DfvtdhVtJEfcht_A0K3bCUFCnaSe_NtM5eY_O_MMnTmRm6c&usqp=CAU"
+  },
+  {
+    skill: "Tailwind",
+    percentage: 80,
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s"
+  },
+  {
+    skill: "React",
+    percentage: 40,
+    icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256"
+  },
+  {
+    skill: "Next.js",
+    percentage: 50,
+    icon: "https://cdn.brandfetch.io/nextjs.org/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed"
+  },
+
+];
+
+
+
+// Experience and Education
+
+export const experience = [
+  {
+    id:1,
+    title:"Front end Developer",
+    company: "Tech-Que IT",
+    year: "2021-2023",
+    description: " Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence. ",
+    icon: "https://media.licdn.com/dms/image/v2/C560BAQGTeNlec7rXfA/company-logo_200_200/company-logo_200_200/0/1675246556111/tech_queit_logo?e=2147483647&v=beta&t=2NriuLQd80DadWwvYfWcgKOBzNRbtRpEruMAt-PnSHo"
+  }
+]
