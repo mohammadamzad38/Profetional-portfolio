@@ -5,6 +5,8 @@ import NumbersSection from "./Components/NumbersSection";
 import ServiceSection from "./Components/ServiceSection";
 import SkillsSection from "./Components/SkillsSection";
 import EduAndExp from "./Components/eduAndExp";
+import ProjectSection from "./Components/ProjectSection";
+import ContactUs from "./Components/ContactUs";
 
 
 
@@ -18,6 +20,8 @@ function App() {
      <ServiceSection />
      <SkillsSection />
      <EduAndExp />
+     <ProjectSection />
+     <ContactUs />
     </>
   );
 }

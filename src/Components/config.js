@@ -1,3 +1,5 @@
+
+
 const animationDuration = 2;
 export const variants = {
   initial: { pathLength: 0, strokeOpacity: 1, fillOpacity: 0 },
@@ -116,33 +118,86 @@ export const experience = [
   },
   {
     id: 1,
-    title: "SEO Specialist",
-    company: "Z3 Corporation",
+    title: "Jr. Front end developer",
+    company: "NobleMarriage.com",
     year: "2023-2024",
     description:
       " Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence. ",
-    icon: "https://media.licdn.com/dms/image/v2/C560BAQGTeNlec7rXfA/company-logo_200_200/company-logo_200_200/0/1675246556111/tech_queit_logo?e=2147483647&v=beta&t=2NriuLQd80DadWwvYfWcgKOBzNRbtRpEruMAt-PnSHo",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs2YIxTTivwIuKXTu_WFzxecPkW09BqEuCPE34rkeaJ3zqz_1-8UZMiITh6UMGk4cRXKQ&usqp=CAU",
   },
- 
 ];
 
 export const education = [
   {
     id: 1,
-    degree: "Norther College Bangladesh",
-    institution: "Tech-Que IT",
+    degree: "HSC",
+    institution: "Norther College Bangladesh",
     year: "2021-2023",
     details:
       " Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence. ",
-    icon: "https://media.licdn.com/dms/image/v2/C560BAQGTeNlec7rXfA/company-logo_200_200/company-logo_200_200/0/1675246556111/tech_queit_logo?e=2147483647&v=beta&t=2NriuLQd80DadWwvYfWcgKOBzNRbtRpEruMAt-PnSHo",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwgAacq0bOR2ufHL1VpxXKKw-KwZDXpRSZ2g00FUjoaQ&s",
   },
   {
     id: 1,
-    degree: "Southeast University",
-    institution: "Tech-Que IT",
+    degree: "SouthEast University",
+    institution: "Southeast University",
     year: "2021-2023",
     details:
       " Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence. ",
-    icon: "https://media.licdn.com/dms/image/v2/C560BAQGTeNlec7rXfA/company-logo_200_200/company-logo_200_200/0/1675246556111/tech_queit_logo?e=2147483647&v=beta&t=2NriuLQd80DadWwvYfWcgKOBzNRbtRpEruMAt-PnSHo",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfNLVGB_32hgvOtrzSFyRlrU3KC_AbXagXQ&s",
+  },
+];
+
+// Projects
+
+export const projects = [
+  {
+    id: 1,
+    title: "Project-0-1",
+    description:
+      "Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence.",
+    image: "project.jpg",
+  },
+  {
+    id: 1,
+    title: "Project-0-1",
+    description:
+      "Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence.",
+    image: "project.jpg",
+  },
+  {
+    id: 1,
+    title: "Project-0-1",
+    description:
+      "Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence.",
+    image: "project.jpg",
+  },
+];
+
+// Contact Section
+
+import { GrMapLocation } from "react-icons/gr";
+
+
+export const contactData = [
+  {
+    id: 1,
+    title: "Address",
+    description:
+      "Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence.",
+    icon: "home-location.png"
+    ,
+  },
+  {
+    id: 2,
+    title: "Phone Number",
+    description: "+123 435 654 675",
+    icon: "",
+  },
+  {
+    id: 3,
+    title: "Email",
+    description: "example@gmail.com",
+    icon: "",
   },
 ];
