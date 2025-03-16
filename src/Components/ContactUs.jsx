@@ -29,11 +29,11 @@ const ContactUs = () => {
               className="mb-20"
             >
               <div className="bg-black z-20 md:w-11/12 w-full text-white rounded-xl">
-                <div className="border border-[#FFC107] bg-[#ffffff29] rounded-xl p-3 gap-5 justify-center flex items-center">
-                  <img src={data.icon} alt="" />
-                  <div className="mb-20">
-                    <h3 className="text-xl font-semibold">{data.title}</h3>
-                    <p className="text-sm">{data.description}</p>
+                <div className="flex border border-[#FFC107] bg-[#ffffff29] rounded-xl p-5 gap-20 items-center">
+                  <img width={80} src={data.icon} alt="" />
+                  <div className="mb-20 space-y-5">
+                    <h3 className="text-xl font-bold">{data.title}</h3>
+                    <p className="text-md">{data.description}</p>
                   </div>
                 </div>
               </div>

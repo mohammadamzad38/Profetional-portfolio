@@ -192,12 +192,12 @@ export const contactData = [
     id: 2,
     title: "Phone Number",
     description: "+123 435 654 675",
-    icon: "",
+    icon: "phone-1.png",
   },
   {
     id: 3,
     title: "Email",
-    description: "example@gmail.com",
-    icon: "",
+    description: "amzad.official04@gmail.com",
+    icon: "mail-letter.png",
   },
 ];
