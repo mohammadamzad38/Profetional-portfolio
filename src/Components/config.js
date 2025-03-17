@@ -160,14 +160,14 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Project-0-1",
+    title: "Project-2",
     description:
       "Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence.",
     image: "project.jpg",
   },
   {
     id: 1,
-    title: "Project-0-1",
+    title: "Project-3",
     description:
       "Tech-Que is a dynamic and innovative technology company that provides a full suite of web-based services to clients looking to establish or enhance their online presence.",
     image: "project.jpg",

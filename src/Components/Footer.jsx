@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Footer = () => {
-  const scentence = "All rights reserved by Mohammad Amzad";
+  const scentence = "All rights reserved";
   const letters = scentence.split("");
 
   const variants ={
@@ -11,8 +11,8 @@ const Footer = () => {
   }
   return (
     <footer className="relative z-10 text-white border-2 border-t-white mt-20">
-      <div className="container p-8 flex justify-between">
-        <div className="text-3xl font-bold flex">LoGo</div>
+      <div className="container p-8 flex flex-col md:flex-row gap-5 md:justify-between">
+        <div className="text-3xl font-bold flex ">LoGo</div>
         <nav className="flex ml-2">
             {
             letters.map((letter, index) =>(
@@ -22,7 +22,7 @@ const Footer = () => {
                 initial="hidden"
                 whileInView="visible"
                 transition={{duration:0.5, delay: index * 0.1}}
-                className={`inline-block ${letter === " " ? "mr-4" : "mr-1"}`}
+                className={`inline-block ${letter === " " ? "mr-2" : "mr-1"}`}
                 >
                     {letter}
                 </motion.span>

@@ -7,10 +7,10 @@ const BackToTop = () => {
 
   useEffect(() => {
     const unsubscribe = scrollYProgress.on("change", (latest) => {
-      setShowButton(latest > 0.05); // ✅ Fixed logic (0.05 = 5% scroll)
+      setShowButton(latest > 0.05);
     });
 
-    return () => unsubscribe(); // ✅ Cleanup function to avoid memory leaks
+    return () => unsubscribe();
   }, [scrollYProgress]);
 
   const scrollToTop = () => {
