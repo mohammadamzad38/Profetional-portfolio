@@ -31,7 +31,7 @@ const ContactUs = () => {
               <div className="bg-black z-20 md:w-11/12 w-full text-white rounded-xl">
                 <div className="flex border border-[#FFC107] bg-[#ffffff29] rounded-xl p-5 gap-20 items-center">
                   <img width={80} src={data.icon} alt="" />
-                  <div className="mb-20 space-y-5">
+                  <div className=" space-y-5">
                     <h3 className="text-xl font-bold">{data.title}</h3>
                     <p className="text-md">{data.description}</p>
                   </div>
