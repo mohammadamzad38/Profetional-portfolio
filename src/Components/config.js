@@ -142,7 +142,7 @@ export const projects = [
     title: "NobleMarriage.com",
     description:
       "NobleMarriage is a free online match-making platform that was formed with the intention of bridging the gap that Muslim Men and Women.",
-    image: "/public/noble-marriage.png",
+    image: "noble-marriage.png",
   },
   {
     id: 1,
