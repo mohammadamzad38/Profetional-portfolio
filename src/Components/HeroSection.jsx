@@ -61,7 +61,7 @@ const HeroSection = () => {
               </section>
             </section>
           </section>
-          <figure className="lg:h-full md:flex md:justify-end mt-20 md:mt-0">
+          <figure className="lg:h-full md:flex place-items-center justify-center md:justify-end mt-20 md:mt-0">
             <motion.div
               className="w-[300px] h-[300px] md:w-[300px] flex justify-center items-center p-3 rounded-full overflow-hidden relative"
               animate={{

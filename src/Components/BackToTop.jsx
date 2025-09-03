@@ -1,5 +1,5 @@
-import { useScroll, motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import { motion, useScroll } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const BackToTop = () => {
   const { scrollYProgress } = useScroll();
@@ -22,7 +22,7 @@ const BackToTop = () => {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-[#ffffff29] text-[#FFC107] p-3 rounded-full shadow-lg transition-colors z-[150] flex items-center"
+          className="fixed bottom-8 right-8 bg-[#ffffff29] text-[#FFC107] p-3 rounded-full shadow-lg transition-colors z-[150] flex place-items-center"
           aria-label="scroll to top"
           style={{ width: "50px", height: "50px" }}
         >
