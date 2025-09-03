@@ -139,10 +139,10 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "blog.NobleMarriage.com",
+    title: "NobleMarriage.com",
     description:
       "NobleMarriage is a free online match-making platform that was formed with the intention of bridging the gap that Muslim Men and Women.",
-    image: "project.jpg",
+    image: "/public/noble-marriage.png",
   },
   {
     id: 1,
