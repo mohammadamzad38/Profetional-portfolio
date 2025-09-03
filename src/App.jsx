@@ -23,12 +23,12 @@ function App() {
       <Suspense fallback={<LoadingSpinner />}>
         <HeroSection />
       </Suspense>
-      
+
       {/* Main content sections */}
       <Suspense fallback={<LoadingSpinner />}>
         <MainContent />
       </Suspense>
-      
+
       {/* Contact and footer */}
       <Suspense fallback={<LoadingSpinner />}>
         <ContactAndFooter />

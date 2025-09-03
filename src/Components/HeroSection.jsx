@@ -48,7 +48,7 @@ const HeroSection = () => {
                       animate="animate"
                     ></motion.path>
                   </svg>
-                  <span>Download resume</span>
+                  <span><a href="">Download resume</a></span>
                 </motion.button>
               </section>
             </section>
