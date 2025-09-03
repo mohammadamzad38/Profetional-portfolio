@@ -1,4 +1,4 @@
-import{ motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { variants } from "./config.js";
 import InteractiveButton from "./InteractiveButton.jsx";
 import SocialButton from "./SocialButton.jsx";
@@ -48,7 +48,15 @@ const HeroSection = () => {
                       animate="animate"
                     ></motion.path>
                   </svg>
-                  <span><a href="">Download resume</a></span>
+                  <span>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://drive.google.com/file/d/1rHUkpmZjPzbp8jlePEIFhx087-floLqt/view?usp=sharing"
+                    >
+                      Download resume
+                    </a>
+                  </span>
                 </motion.button>
               </section>
             </section>
