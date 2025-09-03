@@ -36,7 +36,7 @@ const SkillCircle = ({ skill, percentage, icon }) => {
           initial={{ strokeDashoffset: circumference }}
           whileInView={{ strokeDashoffset }}
           viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 2, ease: "easeInOut" }}
+          transition={{ duration: 0, ease: "easeInOut" }}
         ></motion.circle>
       </svg>
 
@@ -58,13 +58,13 @@ function SkillsSection() {
       <header className="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#007cda] via-[#785ae4] to-[#FFC107] opacity-20 blur-[100px] left-10 top-0 hidden md:block"></header>
 
       <CustomTitle title="My Skills" />
-      <section className="grid grid-cols-2 md:grid-cols-5 gap-6 lg:gap-8 p-16 text-white mt-32">
+      <section className="grid grid-cols-2 md:grid-cols-5 gap-6 lg:gap-8 p-16 text-white max-w-7xl mx-auto mt-32">
         {skills.map((item, index) => (
           <motion.article
             key={index}
             initial={{ opacity: 1, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.5 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.1 }}
             viewport={{ once: true, amount: 0.5 }}
           >
             <SkillCircle

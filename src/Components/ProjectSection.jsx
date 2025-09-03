@@ -32,11 +32,11 @@ export default function ProjectSection() {
             onClick={prevSlide}
             className="absolute left-5 z-20 hover:scale-150"
           >
-            <img className="w-[50px] rounded-full bg-yellow-300" src="NMSS.png" alt="project" />
+            <img className="w-[50px] rounded-full bg-yellow-300" src="./NMSS.png" alt="project" />
           </button>
         </nav>
 
-        <article className="relative w-full h-screen flex items-center justify-center">
+        <article className="relative w-full h-[800px] flex items-center justify-center">
             <AnimatePresence initial={false}>
                 {
                     projects.map((project, index) => index === currentIndex && (
@@ -61,7 +61,7 @@ export default function ProjectSection() {
             onClick={nextSlide}
             className="absolute right-5 z-20 hover:scale-150"
           >
-            <img className="w-[50px] rounded-full bg-yellow-300" src="NMSS.png" width={100} alt="project" />
+            <img className="w-[50px] rounded-full bg-yellow-300" src="./NMSS.png" width={100} alt="project" />
           </button>
         </nav>
       </article>

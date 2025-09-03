@@ -1,5 +1,4 @@
-import React from "react";
-import { motion } from "framer-motion";
+import{ motion } from "framer-motion";
 import { variants } from "./config.js";
 import InteractiveButton from "./InteractiveButton.jsx";
 import SocialButton from "./SocialButton.jsx";
@@ -25,10 +24,10 @@ const HeroSection = () => {
                 </h1>
               </header>
               <p className="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-[370px] md:mx-w-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci, voluptates non? Ex dignissimos rerum ab? Esse nulla
-                incidunt hic quas omnis excepturi, natus ex veritatis inventore
-                officia assumenda quo ipsam.
+                I’m a front-end designer focused on React.js and Next.js. I’m
+                passionate about creating user-friendly web interfaces and
+                currently I'am learning advanced React and Next.js to enhance my
+                design and development skills.
               </p>
               <section className="flex items-center gap-5 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                 <figure className="w-56">
@@ -55,19 +54,27 @@ const HeroSection = () => {
             </section>
           </section>
           <figure className="lg:h-full md:flex md:justify-end mt-20 md:mt-0">
-            <motion.div className="w-[300px] h-[300px] md:w-[300px] flex justify-center items-center p-3 rounded-full overflow-hidden relative"
-            animate={{backgroundColor:["#FFC107", "#FF7556", "#FF6667"], scale:[1, 1, 1, 1], rotate:[1, 5, 5, 1]}}
-            transition={{
-              duration:2,
-              ease:"easeInOut",
-              repeat:Infinity,
-              repeatType:"reverse"
-            }}
+            <motion.div
+              className="w-[300px] h-[300px] md:w-[300px] flex justify-center items-center p-3 rounded-full overflow-hidden relative"
+              animate={{
+                backgroundColor: ["#FFC107", "#FF7556", "#FF6667"],
+                scale: [1, 1, 1, 1],
+                rotate: [1, 5, 5, 1],
+              }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
             >
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#ffc107] blur-3xl opacity-60 h-full w-full" />
 
-              <img src="mypicture.jpg" alt="profile picture" className="relative z-10 rounded-full max-h-full shadow-2xl transform transition-transform duration-500 hover:scale-110"/>
-
+              <img
+                src="./mypicture.jpg"
+                alt="profile picture"
+                className="relative z-10 rounded-full shadow-2xl transform transition-transform duration-500 hover:scale-110"
+              />
             </motion.div>
           </figure>
         </article>

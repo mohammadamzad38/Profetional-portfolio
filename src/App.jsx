@@ -1,31 +1,38 @@
-import ThreeBackground from "./Components/ThreeBackground";
-import NavBar from "./Components/NavBar";
-import HeroSection from "./Components/HeroSection";
-import NumbersSection from "./Components/NumbersSection";
-import ServiceSection from "./Components/ServiceSection";
-import SkillsSection from "./Components/SkillsSection";
-import EduAndExp from "./Components/eduAndExp";
-import ProjectSection from "./Components/ProjectSection";
-import ContactUs from "./Components/ContactUs";
-import Footer from "./Components/Footer";
-import BackToTop from "./Components/BackToTop";
+import { Suspense, lazy } from "react";
+import LoadingSpinner from "./Components/LoadingSpinner";
 
+// Lazy load heavy components with progressive loading
+const ThreeBackground = lazy(() => import("./Components/ThreeBackground"));
+const NavBar = lazy(() => import("./Components/NavBar"));
+const HeroSection = lazy(() => import("./Components/HeroSection"));
 
+// Group related sections together for better chunking
+const MainContent = lazy(() => import("./Components/MainContent"));
+const ContactAndFooter = lazy(() => import("./Components/ContactAndFooter"));
 
 function App() {
   return (
     <>
-     <ThreeBackground />
-     <NavBar />
-     <HeroSection />
-     <NumbersSection />
-     <ServiceSection />
-     <SkillsSection />
-     <EduAndExp />
-     <ProjectSection />
-     <ContactUs />
-     <Footer />
-     <BackToTop />
+      {/* Critical above-the-fold content */}
+      <Suspense fallback={<LoadingSpinner />}>
+        <ThreeBackground />
+      </Suspense>
+      <Suspense fallback={<LoadingSpinner />}>
+        <NavBar />
+      </Suspense>
+      <Suspense fallback={<LoadingSpinner />}>
+        <HeroSection />
+      </Suspense>
+      
+      {/* Main content sections */}
+      <Suspense fallback={<LoadingSpinner />}>
+        <MainContent />
+      </Suspense>
+      
+      {/* Contact and footer */}
+      <Suspense fallback={<LoadingSpinner />}>
+        <ContactAndFooter />
+      </Suspense>
     </>
   );
 }

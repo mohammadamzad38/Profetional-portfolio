@@ -30,19 +30,21 @@ const SocialButton = () => {
     <div className="md:flex flex-col items-center justify-center border border-[#FFC107] bg-[#ffffff29] rounded-3xl space-y-11 p-4 max-h-[506px] md:max-h-[386px] hidden">
       {socialIcon.map((icon) => (
         <button key={icon.id}>
-          <svg viewBox={icon.viewBox} width={35} height={40} className="">
-            <motion.path
-              d={icon.path}
-              fill="#FFC107"
-              stroke="#FFC107"
-              strokeWidth={1}
-              transform="scale(1.5, 1.5)"
-              variants={variants}
-              initial="initial"
-              animate="animate"
-              whileHover="hover"
-            ></motion.path>
-          </svg>
+          <a href={icon.link} target="_blanke" rel="noopener noreferrer">
+            <svg viewBox={icon.viewBox} width={35} height={40}>
+              <motion.path
+                d={icon.path}
+                fill="#FFC107"
+                stroke="#FFC107"
+                strokeWidth={1}
+                transform="scale(1.5, 1.5)"
+                variants={variants}
+                initial="initial"
+                animate="animate"
+                whileHover="hover"
+              ></motion.path>
+            </svg>
+          </a>
         </button>
       ))}
     </div>

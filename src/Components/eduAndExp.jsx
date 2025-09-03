@@ -31,7 +31,7 @@ const EduAndExp = () => {
       className="relative container mx-auto px-4 py-12 lg:p-16"
       id="experience"
     >
-      <CustomTitle text="Education & Experience" />
+      <CustomTitle title="Education & Experience" />
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-32">
         {education.map((edu) => (
           <SectionItem

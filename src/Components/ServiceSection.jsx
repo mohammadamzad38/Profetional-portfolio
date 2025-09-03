@@ -1,7 +1,6 @@
-import React from "react";
-import CustomTitle from "./CustomTitle";
 import { motion } from "framer-motion";
 import { Services } from "./config";
+import CustomTitle from "./CustomTitle";
 
 const ServiceSection = () => {
   return (

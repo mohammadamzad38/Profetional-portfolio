@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:analyze": "vite build --mode analyze",
+    "serve": "npx http-server dist -p 3000 -o",
     "lint": "eslint .",
     "preview": "vite preview"
   },
