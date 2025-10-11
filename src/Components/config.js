@@ -1,3 +1,5 @@
+import { link } from "framer-motion/client";
+
 const animationDuration = 2;
 export const variants = {
   initial: { pathLength: 0, strokeOpacity: 1, fillOpacity: 0 },
@@ -143,6 +145,7 @@ export const projects = [
     description:
       "NobleMarriage is a free online match-making platform that was formed with the intention of bridging the gap that Muslim Men and Women.",
     image: "noble-marriage.png",
+    link: "https://noblemarriage.com/",
   },
   {
     id: 1,
@@ -150,6 +153,7 @@ export const projects = [
     description:
       "MRZ Tech is a growing technology-driven company focused on delivering innovative software solutions and digital services.",
     image: "mrz-tech.png",
+    link: "https://mrztech.com/",
   },
   {
     id: 1,
@@ -157,6 +161,7 @@ export const projects = [
     description:
       "Z3 Corporation is one of the leading fire fighting equipment supply and installation companies in Bangladesh, delivering end-to-end safety solutions with reliability and expertise.",
     image: "z3-corporation.png",
+    link: "https://z3corporation.com/",
   },
 ];
 

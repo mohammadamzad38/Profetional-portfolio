@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const Footer = () => {
-  const scentence = "All rights reserved";
+  const scentence = "All rights reserved by Amzad 2025";
   const letters = scentence.split("");
 
   const variants = {
@@ -10,7 +10,7 @@ const Footer = () => {
   };
   return (
     <footer className="relative z-10 text-white border-2 border-t-white mt-20">
-      <div className="container p-8 flex flex-col md:flex-row gap-5 md:justify-between">
+      <div className="container px-2 py-6 flex flex-col md:flex-row gap-5 md:justify-between">
         <nav className="flex ml-2">
           {letters.map((letter, index) => (
             <motion.span
