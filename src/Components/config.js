@@ -34,7 +34,7 @@ export const socialIcon = [
     path: "M12 1.5C6.2 1.5 1.5 6.2 1.5 12c0 2.3.7 4.5 2 6.4L2 22.5l4.2-1.1c1.7 1 3.6 1.6 5.8 1.6 5.8 0 10.5-4.7 10.5-10.5S17.8 1.5 12 1.5zm0 19c-1.9 0-3.7-.5-5.3-1.4l-.4-.3-2.5.7.7-2.4-.3-.4C3.5 15 3 13.5 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9zm4.1-6.7c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.6.1s-.7.7-.9.9c-.2.2-.3.2-.6.1s-1.1-.4-2.1-1.3c-.8-.7-1.3-1.5-1.5-1.8-.2-.3 0-.4.1-.5l.5-.6c.1-.1.2-.3.3-.4s0-.3 0-.4c-.1-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.6c-.2 0-.4 0-.5.2-.2.2-.7.7-.7 1.7s.8 2 1 2.1c.1.1 1.5 2.2 3.7 3 2.2.8 2.2.5 2.6.5s1.3-.5 1.5-1 .2-1 .1-1.1c-.1-.1-.3-.2-.5-.3z",
     phonePath:
       "M16.5 6.5c-.2-.2-.4-.3-.7-.3h-1.1c-.3 0-.5.1-.7.3s-.3.4-.3.7c0 .3.1.5.3.7l.9.9c-.4.9-1 1.7-1.7 2.4-.7.7-1.5 1.3-2.4 1.7l-.9-.9c-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-1.1 1.1c-.2.2-.3.4-.3.7s.1.5.3.7l1.4 1.4c.5.5 1.1.8 1.8.8 2.6 0 5.1-1 7-2.9 1.9-1.9 2.9-4.4 2.9-7 0-.7-.3-1.3-.8-1.8l-1.4-1.4z",
-    link: "https://github.com/mohammadamzad38",
+    link: "https://wa.me/8801683808738",
   },
 
   {
@@ -109,11 +109,11 @@ export const experience = [
   {
     id: 1,
     title: "Jr. Front end developer",
-    company: "NobleMarriage.com",
+    company: "mrztech.com",
     year: "2025",
     description:
-      " Noble Marriage is the perfect Muslim Matrimony App to find the muslim life partner.",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs2YIxTTivwIuKXTu_WFzxecPkW09BqEuCPE34rkeaJ3zqz_1-8UZMiITh6UMGk4cRXKQ&usqp=CAU",
+      " MRZ Tech is a global software and digital services company headquartered in Dhaka, Bangladesh.",
+    icon: "https://ibb.co.com/G4R2xqC6",
   },
 ];
 

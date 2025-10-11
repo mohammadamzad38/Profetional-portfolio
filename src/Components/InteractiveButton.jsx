@@ -5,7 +5,7 @@ const CYCLE_PER_LETTER = 2;
 const SHUFFLE_TIME = 50;
 const CHARS = "!@#$%$:{};|,.<>/?^";
 
-const InteractiveButton = ({text}) => {
+const InteractiveButton = ({ text }) => {
   return (
     <div>
       <CustomButton text={text} />
@@ -53,7 +53,8 @@ const CustomButton = ({ text }) => {
       whileTap={{ scale: 0.95 }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="w-full px-8 py-5 text-lg font-bold text-white rounded-lg overflow-hidden relative group bg-[#FFC107]"
+      onClick={() => window.location.href= "tel:+8801683808738"}
+      className="w-full px-8 py-5 text-lg font-bold text-white cursor-pointer rounded-lg overflow-hidden relative group bg-[#FFC107]"
     >
       <span className="absolute inset-0 w-full bg-[#ff5c27] rounded-lg transform scale-0 transition-transform duration-300 ease-out group-hover:scale-100"></span>
 
