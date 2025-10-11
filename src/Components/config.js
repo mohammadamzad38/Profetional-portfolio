@@ -173,17 +173,20 @@ export const contactData = [
     title: "Address",
     description: "Gulshan, Dhaka, Bangladesh",
     icon: "home-location.png",
+    link: "",
   },
   {
     id: 2,
     title: "Phone Number",
     description: "+880 16838-08738",
     icon: "phone-1.png",
+    link: "tel:+8801683808738",
   },
   {
     id: 3,
     title: "Email",
     description: "info.aamzad@gmail.com",
     icon: "mail-letter.png",
+    link: "mailto:info.aamzad@gmail.com",
   },
 ];

@@ -22,12 +22,12 @@ const BackToTop = () => {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-[#ffffff29] text-[#FFC107] p-3 rounded-full shadow-lg transition-colors z-[150] flex place-items-center"
+          className="fixed bottom-8 right-20 bg-[#ffffff29] text-[#FFC107] p-3 rounded-full shadow-lg transition-colors z-[150] flex place-items-center"
           aria-label="scroll to top"
           style={{ width: "50px", height: "50px" }}
         >
           <motion.div
-            className="absolute inset-0"
+            className="absolute inset-0 flex justify-center items-center"
             style={{ transform: "rotate(-90deg)" }}
           >
             <svg width={50} height={50} viewBox="0 0 36 36">
@@ -43,7 +43,7 @@ const BackToTop = () => {
                 stroke="black"
                 strokeWidth={2}
                 strokeDasharray="100 100"
-                strokeDashoffset={100 * (1 - scrollYProgress.get())} // ✅ Fixed stroke calculation
+                strokeDashoffset={100 * (1 - scrollYProgress.get())} 
                 style={{ pathLength: scrollYProgress }}
               />
             </svg>
