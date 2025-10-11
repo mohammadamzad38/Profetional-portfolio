@@ -31,7 +31,7 @@ const HeroSection = () => {
               </p>
               <section className="flex items-center gap-5 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                 <figure className="w-56">
-                  <InteractiveButton text="Hire Me"></InteractiveButton>
+                  <InteractiveButton text="Contact"></InteractiveButton>
                 </figure>
                 <motion.button
                   whileHover={{ scale: 1.1 }}

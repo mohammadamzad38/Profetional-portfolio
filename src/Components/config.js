@@ -49,10 +49,10 @@ export const socialIcon = [
 // Numbers Section
 
 export const Numbers = [
-  { id: 1, number: 40, title: "Created projects" },
+  { id: 1, number: 50, title: "Created projects" },
   { id: 2, number: 15, title: "Projects" },
-  { id: 3, number: 5, title: "Happy Clints" },
-  { id: 4, number: 8, title: "Month" },
+  { id: 3, number: 6, title: "Happy Clints" },
+  { id: 4, number: 10, title: "Month" },
 ];
 
 // Services section
