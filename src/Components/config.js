@@ -149,6 +149,14 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Coffee Kahf",
+    description:
+      "Coffee Kahf is a coffee brand that brings freshly roasted, ethically sourced beans and high-quality brewing accessories right to your door.",
+    image: "coffee-khaf.png",
+    link: "https://coffeekahf.com/",
+  },
+  {
+    id: 1,
     title: "MRZ Tech",
     description:
       "MRZ Tech is a growing technology-driven company focused on delivering innovative software solutions and digital services.",
