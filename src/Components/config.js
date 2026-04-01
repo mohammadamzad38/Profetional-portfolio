@@ -115,7 +115,7 @@ export const experience = [
     year: "2025",
     description:
       " MRZ Tech is a global software and digital services company headquartered in Dhaka, Bangladesh.",
-    icon: "https://ibb.co.com/G4R2xqC6",
+    icon: "https://www.google.com/imgres?q=mrz%20tech&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D773558508520843&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FMRZTechOfficial%2F&docid=9s-KOg4FtabGVM&tbnid=aEza6nz3RteJhM&vet=12ahUKEwj6ibvIi8yTAxUBxjgGHSw8K2wQnPAOegQIGBAB..i&w=2048&h=2048&hcb=2&itg=1&ved=2ahUKEwj6ibvIi8yTAxUBxjgGHSw8K2wQnPAOegQIGBAB",
   },
 ];
 
@@ -170,6 +170,14 @@ export const projects = [
       "Z3 Corporation is one of the leading fire fighting equipment supply and installation companies in Bangladesh, delivering end-to-end safety solutions with reliability and expertise.",
     image: "z3-corporation.png",
     link: "https://z3corporation.com/",
+  },
+  {
+    id: 1,
+    title: "Maison Liora",
+    description:
+      "Maison Liora, a cosmetics brand, showcases its collection through a refined and intuitive design.",
+    image: "liora.png",
+    link: "https://lioramaison.esoralabs.com/",
   },
 ];
 
