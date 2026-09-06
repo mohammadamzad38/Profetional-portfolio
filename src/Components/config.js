@@ -1,4 +1,5 @@
 import { link } from "framer-motion/client";
+import { BsTypescript } from "react-icons/bs";
 
 const animationDuration = 2;
 export const variants = {
@@ -85,6 +86,17 @@ export const skills = [
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s",
   },
   {
+    skill: "Javascript",
+    percentage: 50,
+    icon: "https://i.postimg.cc/ZKq1523n/express.png",
+  },
+  {
+    skill: "Typescript",
+    percentage: 50,
+    icon: "https://i.postimg.cc/y60NTJrF/Type-Script-Logo-Colored-zonalogo-com.jpg",
+  },
+
+  {
     skill: "React",
     percentage: 40,
     icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256",
@@ -93,6 +105,34 @@ export const skills = [
     skill: "Next.js",
     percentage: 50,
     icon: "https://cdn.brandfetch.io/nextjs.org/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
+  },
+
+  {
+    skill: "mongo DB",
+    percentage: 50,
+    icon: "https://i.postimg.cc/63LD8NYN/images.jpg",
+  },
+
+  {
+    skill: "Node.js",
+    percentage: 50,
+    icon: "https://i.postimg.cc/xC4LyXsZ/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-misc.png",
+  },
+  {
+    skill: "Express.js",
+    percentage: 50,
+    icon: "https://i.postimg.cc/TwRtH5JM/5658226.png",
+  },
+
+  {
+    skill: "Redis",
+    percentage: 50,
+    icon: "https://i.postimg.cc/QMDmHKPK/redis-logo-png-svg.webp",
+  },
+  {
+    skill: "Firebase",
+    percentage: 50,
+    icon: "https://i.postimg.cc/pLRkdn3y/logo-vertical.png",
   },
 ];
 
@@ -103,9 +143,9 @@ export const experience = [
     id: 1,
     title: "SEO Specialist",
     company: "Tech-Que IT",
-    year: "2021-2023",
+    year: "2022-2023",
     description:
-      " Tech-Que provides is a full suite of web-based services to enhance their online presence. ",
+      " Tech-Que IT is a full suite of web-based services company to enhance online presence. ",
     icon: "https://media.licdn.com/dms/image/v2/C560BAQGTeNlec7rXfA/company-logo_200_200/company-logo_200_200/0/1675246556111/tech_queit_logo?e=2147483647&v=beta&t=2NriuLQd80DadWwvYfWcgKOBzNRbtRpEruMAt-PnSHo",
   },
   {
@@ -114,8 +154,8 @@ export const experience = [
     company: "mrztech.com",
     year: "2025",
     description:
-      " MRZ Tech is a global software and digital services company headquartered in Dhaka, Bangladesh.",
-    icon: "https://www.google.com/imgres?q=mrz%20tech&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D773558508520843&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FMRZTechOfficial%2F&docid=9s-KOg4FtabGVM&tbnid=aEza6nz3RteJhM&vet=12ahUKEwj6ibvIi8yTAxUBxjgGHSw8K2wQnPAOegQIGBAB..i&w=2048&h=2048&hcb=2&itg=1&ved=2ahUKEwj6ibvIi8yTAxUBxjgGHSw8K2wQnPAOegQIGBAB",
+      " MRZ Tech is a global software and digital services company in Dhaka, Bangladesh.",
+    icon: "https://i.postimg.cc/DZTzVnSK/1753765866800.jpg",
   },
 ];
 
@@ -187,22 +227,22 @@ export const contactData = [
   {
     id: 1,
     title: "Address",
-    description: "Gulshan, Dhaka, Bangladesh",
-    icon: "home-location.png",
+    description: "Notunbazar, Gulshan, Dhaka, Bangladesh",
+    icon: "https://i.postimg.cc/D0DkTPxg/home-location.png",
     link: "",
   },
   {
     id: 2,
     title: "Phone Number",
     description: "+880 16838-08738",
-    icon: "phone-1.png",
+    icon: "https://i.postimg.cc/dtbPNn7x/phone-1.png",
     link: "tel:+8801683808738",
   },
   {
     id: 3,
     title: "Email",
     description: "info.aamzad@gmail.com",
-    icon: "mail-letter.png",
+    icon: "https://i.postimg.cc/0Q2LKB3z/mail-letter.png",
     link: "mailto:info.aamzad@gmail.com",
   },
 ];

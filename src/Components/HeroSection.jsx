@@ -26,8 +26,8 @@ const HeroSection = () => {
               <p className="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-[370px] md:mx-w-xl">
                 I’m a front-end designer focused on React.js and Next.js. I’m
                 passionate about creating user-friendly web interfaces and
-                currently I'am learning advanced React and Next.js to enhance my
-                design and development skills.
+                currently I'am learning advanced backend technology to enhance
+                my design and development skills.
               </p>
               <section className="flex items-center gap-5 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                 <figure className="w-56">
@@ -52,7 +52,7 @@ const HeroSection = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://drive.google.com/file/d/1NBgPM84ZlEfTaflebJcUDMreHEXBTXCw/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1PxvKigNhj9pRURu7-freTfxmsmVaB9cG/view?usp=sharing"
                     >
                       Download resume
                     </a>
