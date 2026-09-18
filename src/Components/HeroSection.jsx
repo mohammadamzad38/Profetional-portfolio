@@ -52,7 +52,7 @@ const HeroSection = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://drive.google.com/file/d/1PxvKigNhj9pRURu7-freTfxmsmVaB9cG/view?usp=sharing"
+                      href="https://drive.google.com/file/d/17DanphtmolyCCAxaUMvkhjwJ1GPDV5yT/view?usp=sharing"
                     >
                       Download resume
                     </a>
