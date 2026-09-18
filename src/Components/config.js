@@ -123,10 +123,15 @@ export const skills = [
     percentage: 50,
     icon: "https://i.postimg.cc/TwRtH5JM/5658226.png",
   },
+  {
+    skill: "Nest.js",
+    percentage: 50,
+    icon: "https://i.postimg.cc/FH30V80b/logo.jpg",
+  },
 
   {
     skill: "Redis",
-    percentage: 50,
+    percentage: 40,
     icon: "https://i.postimg.cc/QMDmHKPK/redis-logo-png-svg.webp",
   },
   {
